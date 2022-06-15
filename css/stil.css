@@ -1,0 +1,96 @@
+body	{
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url("https://cdn.amanaimages.com/preview640/11019024946.jpg");
+	background-attachment: fixed;
+	background-repeat: no repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+h1	{
+	font-size: 80px;
+	text-align: center;
+	border: 3px solid white;
+	margin: 0px;
+	padding: 10px 50px;
+}
+ 
+img	{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+p	{
+	text-align: justify;
+	font-size: 20px;
+}
+
+h2	{
+	font-size: 30px;
+}
+
+.main	{
+	padding: 0 20px;
+	border: 2px solid white;
+	background: white;
+}
+
+.tablica	{
+	border: 5px solid green;
+	 border-collapse: collapse;
+    width: 100%;
+	
+	
+}
+td, th {
+		border: 5px solid green ;
+		background: ;
+		font-size: 20px;
+		font-weight: bold;
+}
+
+
+h3	{
+	font-size: 20px;
+}
+
+.footer		{	
+	padding: 0 20px;
+	border: 15px solid green;
+	background: green;
+}
+.footer2	{
+	text-align: center;
+	font-size: 20px;
+}
+
+ul {	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 800px;
+	background-color: #f1f1f1;
+	overflow: hidden;
+	
+	text-align: center;
+	border: 2px solid #555;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: #000;
+	padding: 20px 60px;
+	text-decoration: none;
+	text-align: center;
+}
+
+li a:hover {
+	background-color: green;
+	color: white;
+	
+}
